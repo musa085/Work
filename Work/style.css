@@ -1,0 +1,51 @@
+
+body{
+    background-color:#1A202C;
+    color: white;
+    
+}
+button{
+    background-color: #7C5CFC;
+    border-radius: 30px;
+    gap: 10px;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    justify-content: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+   gap: 20px;
+   float: right;
+   padding-right: 10%;
+   padding-top: 1%;
+}
+img{
+     padding-left: 10%;
+   padding-top: 1%;
+}
+h1{
+    text-align: center;
+    padding-top: 10%;
+}
+p{
+    text-align: center;
+    color: #90A3BF;
+}
+.button-container{
+    padding-top:3% ;
+    text-align: center;
+    
+        button {
+            /* Optional styles for the button */
+            padding: 10px 20px;
+           
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+}
